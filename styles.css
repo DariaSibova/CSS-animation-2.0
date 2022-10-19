@@ -18,3 +18,9 @@
     justify-content: center;
     z-index: 100000;
   }
+  .loader__line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+  }
