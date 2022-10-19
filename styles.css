@@ -3,3 +3,18 @@
     --point-color:#B2DFDB;
     --sixe:10px;
   }
+
+  .loader{
+    background-color: var(--main-color);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0; left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    z-index: 100000;
+  }
