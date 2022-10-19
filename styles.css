@@ -1,7 +1,7 @@
 :root{
     --main-color:#009688;
     --point-color:#B2DFDB;
-    --sixe:10px;
+    --size:10px;
   }
 
   .loader{
@@ -23,4 +23,12 @@
     flex-direction: row;
     align-items: center;
     align-content: center;
+  }
+
+  .loader__dot{
+    border: var(--size) solid var(--point-color);
+  }
+
+  .loader__dot:nth-child(1){
+    animation: dots 1s ease-in-out 0.3 forwards,out 0.7s ease 1.3s forwards;
   }
